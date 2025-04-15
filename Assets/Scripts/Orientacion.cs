@@ -9,7 +9,6 @@ public class Orientacion : MonoBehaviour
     public char espcialidad;
 
     HashSet<char> codigosEspecialidades = new HashSet<char> { 'T', 'D', 'G', 'H', 'M' };
-    // Start is called before the first frame update
     void Start()
     {
 
@@ -37,9 +36,4 @@ public class Orientacion : MonoBehaviour
         Debug.Log("Exito: Muchas Gracias " + nombreAlumno + "!");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
